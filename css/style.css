@@ -23,7 +23,7 @@ header, nav, main, footer {
 }
 
 main {
-  display: flex;
+  display: float;
   border: 0;
 }
 
