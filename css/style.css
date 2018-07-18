@@ -23,7 +23,7 @@ header, nav, main, footer {
 }
 
 main {
-  display: float;
+  display: flex;
   border: 0;
 }
 
@@ -45,6 +45,7 @@ main {
 .card img {
   display: block;
   width: 400px;
+  float: left;
 }
 
 @media (max-width: 1280px) {
