@@ -29,7 +29,7 @@ main {
 
 @media (max-width: 1280px) {
   main {
-    display: inline;
+    display: block;
   }
 }
 .card {
@@ -45,13 +45,13 @@ main {
 .card img {
   display: block;
   width: 400px;
-  float: left;
+  /* float: left; */
 }
 
 @media (max-width: 1280px) {
   .card img {
     display: inline;
-    float: right;
+    /* float: right; */
   }
 }
 @media (max-width: 880px) {
