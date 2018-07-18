@@ -29,7 +29,7 @@ main {
 
 @media (max-width: 1280px) {
   main {
-    display: block;
+    display: inline;
   }
 }
 .card {
@@ -51,6 +51,7 @@ main {
 @media (max-width: 1280px) {
   .card img {
     display: inline;
+    float: right;
   }
 }
 @media (max-width: 880px) {
